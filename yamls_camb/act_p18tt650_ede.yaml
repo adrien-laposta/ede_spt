@@ -1,0 +1,26 @@
+likelihood:
+
+  # ACTPol TT + TE + EE
+  pyactlike.ACTPol_lite_DR4:
+    components:
+      - tt
+      - te
+      - ee
+    lmax: 6000
+
+  # Planck 2018 high ell TT lmax=650
+  planck_2018_highl_plik.TT_lmax650: null
+
+  # Planck 2018 low ell TT
+  planck_2018_lowl.TT: null
+
+
+params: !defaults [params_cosmo_ede, params_calibs_act]
+
+sampler:
+  mcmc:
+    Rminus1_stop: 0.01
+
+theory: !defaults [theory_ede]
+
+packages_path: /sps/litebird/Users/alaposta/development/ede_spt/modules

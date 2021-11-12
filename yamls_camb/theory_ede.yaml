@@ -1,0 +1,6 @@
+  camb:
+    extra_args:
+      lens_potential_accuracy: 1
+      dark_energy_model: EarlyQuintessence
+      use_zc: true
+      n: 3

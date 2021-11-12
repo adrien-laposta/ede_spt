@@ -1,0 +1,7 @@
+  yp2:
+    prior:
+      min: 0.5
+      max: 1.5
+    proposal: 0.2
+    latex: y_\mathrm{pol}
+

@@ -1,0 +1,23 @@
+likelihood:
+
+  # SPT3G TE + EE
+  spt3g_2020.TEEE: null
+
+  # ACTPol TT + TE + EE
+  pyactlike.ACTPol_lite_DR4:
+    components:
+      - tt
+      - te
+      - ee
+    lmax: 6000
+
+
+params: !defaults [params_cosmo_ede, params_calibs_act, params_fg_spt]
+
+sampler:
+  mcmc:
+    Rminus1_stop: 0.01
+
+theory: !defaults [theory_ede]
+
+packages_path: /sps/litebird/Users/alaposta/development/ede_spt/modules
