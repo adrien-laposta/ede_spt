@@ -31,9 +31,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install .
 
-    # - name: Unit tests
-    #   run: |
-    #     python -m unittest mflike.tests.test_mflike
+    - name: Unit tests
+      run: |
+        python -m unittest tests.test_yaml
 
     # - name: Test notebooks (Only on Linux for saving time)
     #   if: matrix.os == 'ubuntu-latest'

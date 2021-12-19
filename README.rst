@@ -70,21 +70,21 @@ instance, to download SPT-3G data you can do
 
 .. code:: shell
 
-   $ cobaya-install -p /where/to/store/data yaml/spt3g_camb.yaml
+   $ cobaya-install -p /where/to/store/data yaml/spt3g_ede.yaml
 
 Basically every time you want to run MCMC, just start by installing the needed material with
 ``cobaya-install``. You can finally run the MCMC with ``cobaya`` by doing
 
 .. code:: shell
 
-   $ cobaya-run -p /where/to/store/data yaml/spt3g_camb.yaml
+   $ cobaya-run -p /where/to/store/data yaml/spt3g_ede.yaml
 
 If you have a cluster of machines with MPI support, you can split the process into n-independant
 processes by doing
 
 .. code:: shell
 
-   $ mpirun -n 4 cobaya-run -p /where/to/store/data yaml/spt3g_camb.yaml
+   $ mpirun -n 4 cobaya-run -p /where/to/store/data yaml/spt3g_ede.yaml
 
 See
 https://cobaya.readthedocs.io/en/latest/installation.html?highlight=mpi#mpi-parallelization-optional-but-encouraged
