@@ -79,7 +79,7 @@ Basically every time you want to run MCMC, just start by installing the needed m
 
    $ cobaya-run -p /where/to/store/data yaml/spt3g_camb.yaml
 
-If you have a cluster of machines with MPI support, you can split the process into $n$ independant
+If you have a cluster of machines with MPI support, you can split the process into n-independant
 processes by doing
 
 .. code:: shell
