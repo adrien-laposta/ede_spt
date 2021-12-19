@@ -2,7 +2,7 @@
  Early Dark Energy search within SPT-3G public data
 ====================================================
 
-.. image:: https://github.com/adrien-laposta/ede_spt/actions/workflows/testing.yml/badge.svg
+.. image:: https://img.shields.io/github/workflow/status/adrien-laposta/ede_spt/Testing?label=testing
    :target: https://github.com/adrien-laposta/ede_spt/actions/workflows/testing.yml
 .. image:: https://img.shields.io/badge/arXiv-XXXX.XXXXX-red.svg
    :target: https://arxiv.org/abs/XXXX
@@ -65,7 +65,7 @@ can install the bunch of software needed by this analysis with the following com
 
 .. code:: shell
 
-   $ pip install git+https://github.com/alaposta/ede_spt.git
+   $ pip install git+https://github.com/adrien-laposta/ede_spt.git
 
 Then, you can install the data needed by the different likelihoods with ``cobaya-install``. For
 instance, to download SPT-3G data you can do
