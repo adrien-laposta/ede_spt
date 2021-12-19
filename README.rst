@@ -2,6 +2,8 @@
  Early Dark Energy search within SPT-3G public data
 ====================================================
 
+.. image:: https://github.com/adrien-laposta/ede_spt/actions/workflows/testing.yml/badge.svg
+   :target: https://github.com/adrien-laposta/ede_spt/actions/workflows/testing.yml
 .. image:: https://img.shields.io/badge/arXiv-XXXX.XXXXX-red.svg
    :target: https://arxiv.org/abs/XXXX
 
