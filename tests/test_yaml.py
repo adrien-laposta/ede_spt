@@ -38,7 +38,7 @@ class YamlTest(unittest.TestCase):
             "spt3g_act_p18full",
         ]
         for config in configs:
-            self.yaml_file = os.path.join("../yamls_camb", f"{config}_ede.yaml")
+            self.yaml_file = os.path.join("../yaml", f"{config}_ede.yaml")
             self._read()
             self._install()
             self._evaluate()
