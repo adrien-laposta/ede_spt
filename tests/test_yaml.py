@@ -29,6 +29,8 @@ class YamlTest(unittest.TestCase):
     def test_yaml(self):
 
         configs = [
+            "act",
+            "p18",
             "spt3g",
             "spt3g_p18tt650",
             "spt3g_p18full",
