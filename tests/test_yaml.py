@@ -33,7 +33,6 @@ class YamlTest(unittest.TestCase):
             "spt3g_p18tt650",
             "spt3g_p18full",
             "spt3g_act",
-            "spt3g_act",
             "spt3g_act_p18tt650",
             "spt3g_act_p18full",
         ]
