@@ -4,8 +4,8 @@
 
 .. image:: https://img.shields.io/github/workflow/status/adrien-laposta/ede_spt/Testing?label=test
    :target: https://github.com/adrien-laposta/ede_spt/actions/workflows/testing.yml
-.. image:: https://img.shields.io/badge/arXiv-XXXX.XXXXX-red.svg
-   :target: https://arxiv.org/abs/XXXX
+.. image:: https://img.shields.io/badge/arXiv-2112.10754-red.svg
+   :target: https://arxiv.org/abs/2112.10754
 
 This repository holds the ``yaml`` configuration files for `cobaya <https://cobaya.readthedocs.io>`_
 to reproduce results from `La Posta et al. <https://arxiv.org/abs/XXXX>`_. We also provide a jupyter
