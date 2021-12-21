@@ -13,7 +13,32 @@ spt3g_p18tt650_bao_lensing:
   label: SPT3G [TE+EE] + Planck 2018 [TT $\ell$ < 650] + BAO + CMB Lensing + $\tau$-prior [EDE, $n=3$]
   color: darkred
 
+spt3g_p18full:
+  path: data/spt3g_p18full
+  label: SPT3G [TE+EE] + Planck 2018 [TT+TE+EE] + $\tau$-prior [EDE, $n=3$]
+  color: navy
+
+spt3g_act_p18tt650:
+  path: data/spt3g_act_p18tt650
+  label: SPT3G [TE+EE] + ACT DR4 [TT+TE+EE] + Planck 2018 [TT $\ell$ < 650] + $\tau$-prior [EDE, $n=3$]
+  color: green
+
+spt3g_act_p18full:
+  path: data/spt3g_act_p18full
+  label: SPT3G [TE+EE] + ACT DR4 [TT+TE+EE] + Planck 2018 [TT+TE+EE] + $\tau$-prior [EDE, $n=3$]
+  color: tab:brown
+
 p18:
   path: data/p18
   label: Planck 2018 [TT+TE+EE] + $\tau$-prior [EDE, $n=3$]
   color: navy
+
+act:
+  path: data/act
+  label: ACT DR4 [TT+TE+EE] + $\tau$-prior [EDE, $n=3$]
+  color: green
+
+act_p18tt650:
+  path: data/act_p18tt650
+  label: ACT DR4 [TT+TE+EE] + Planck 2018 [TT $\ell$ < 650] + $\tau$-prior [EDE, $n=3$]
+  color: green
