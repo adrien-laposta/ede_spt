@@ -8,7 +8,7 @@
    :target: https://arxiv.org/abs/2112.10754
 
 This repository holds the ``yaml`` configuration files for `cobaya <https://cobaya.readthedocs.io>`_
-to reproduce results from `La Posta et al. <https://arxiv.org/abs/XXXX>`_. We also provide a jupyter
+to reproduce results from `La Posta et al. <https://arxiv.org/abs/2112.10754>`_. We also provide a jupyter
 notebook to redo the figures from the article (see. `ede_spt.ipynb <notebooks/ede_spt.ipynb>`_) as
 well as the LaTeX source files for the article itself.
 

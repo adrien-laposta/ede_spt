@@ -34,3 +34,9 @@ jobs:
     #   run: |
     #     pip install jupyter
     #     jupyter nbconvert --to notebook --execute notebooks/ede_spt.ipynb
+
+    - name: Link Checker
+      uses: lycheeverse/lychee-action@v1.1.1
+      with:
+        args: --verbose README.rst --exclude "github.com/adrien-laposta/ede_spt.git"
+        fail: true
