@@ -12,4 +12,3 @@ sampler:
 
 theory: !defaults [theory_ede]
 
-packages_path: /sps/litebird/Users/alaposta/development/ede_spt/modules
