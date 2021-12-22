@@ -11,7 +11,7 @@ params: !defaults [params_cosmo_ede]
 
 sampler:
   mcmc:
-    Rminus1_stop: 0.01
+    Rminus1_stop: 0.03
 
 
 theory: !defaults [theory_ede]

@@ -16,7 +16,7 @@ params: !defaults [params_cosmo_ede, params_calibs_act, params_fg_spt]
 
 sampler:
   mcmc:
-    Rminus1_stop: 0.01
+    Rminus1_stop: 0.03
 
 theory: !defaults [theory_ede]
 
