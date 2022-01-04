@@ -1,0 +1,15 @@
+# Planck 2018 release: high-ell, TT power spectrum likelihood (plik)
+# See https://wiki.cosmos.esa.int/planck-legacy-archive/index.php/CMB_spectrum_%26_Likelihood_Code
+# Modified by JCH to use multipoles only up to lmax=650 with clik_change_lrange.py
+
+path:
+clik_file: baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22_TT_lmax650.clik
+product_id: ""
+# Aliases for automatic covariance matrix
+aliases: [plikHM_TT_lmax650]
+# Speed in evaluations/second
+speed: 8
+
+params: !defaults [params_calib, params_calib_temp, params_TT]
+
+prior: !defaults [prior_SZ]

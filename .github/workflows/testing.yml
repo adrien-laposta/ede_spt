@@ -1,0 +1,42 @@
+name: Testing
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.8", "3.9", "3.10"]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies via pip
+      run: |
+        python -m pip install --upgrade pip wheel
+        pip install .
+
+    - name: Unit tests
+      run: |
+        cd tests
+        python -m unittest test_yaml.py
+
+    # - name: Test notebooks (Only on Linux for saving time)
+    #   if: matrix.os == 'ubuntu-latest'
+    #   run: |
+    #     pip install jupyter
+    #     jupyter nbconvert --to notebook --execute notebooks/ede_spt.ipynb
+
+    - name: Link Checker
+      uses: lycheeverse/lychee-action@v1.1.1
+      with:
+        args: --verbose README.rst --exclude "github.com/adrien-laposta/ede_spt.git"
+        fail: true
